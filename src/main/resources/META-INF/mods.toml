@@ -1,0 +1,53 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT License"
+issueTrackerURL="https://github.com/brdle/Quark-Azalea/issues"
+
+[[mods]]
+modId="quarkologics"
+version="${file.jarVersion}"
+displayName="Quarkologics"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/better-quark-azalea"
+updateJSONURL="https://onvoid.net/quarkologics/update.json"
+logoFile="quarkologics.png"
+logoBlur=false
+credits="SameDifferent, foquito_azul, Vazkii"
+authors="brdle"
+description="Adds block variants from Quark for Ecologics' wood types."
+itemIcon="quarkologics:azalea_chest"
+configBackground="ecologics:textures/block/azalea_planks.png"
+
+[[dependencies.quarkologics]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.quarkologics]]
+    modId="geckolib3"
+    mandatory=true
+    versionRange="[3,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.quarkologics]]
+    modId="ecologics"
+    mandatory=true
+    versionRange="[1.5,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.quarkologics]]
+    modId="blueprint"
+    mandatory=true
+    versionRange="[5.2,)"
+    ordering="BEFORE"
+    side="BOTH"
+
+[[dependencies.quarkologics]]
+    modId="quark"
+    mandatory=true
+    versionRange="[3.2-344,)"
+    ordering="AFTER"
+    side="BOTH"

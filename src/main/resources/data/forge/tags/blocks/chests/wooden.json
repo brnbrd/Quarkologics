@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "quarkologics:azalea_chest",
+    "quarkologics:flowering_azalea_chest",
+    "quarkologics:coconut_chest",
+    "quarkologics:walnut_chest"
+  ]
+}

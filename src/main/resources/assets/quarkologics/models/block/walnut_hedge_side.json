@@ -1,0 +1,6 @@
+{
+  "parent": "blueprint:block/hedge_side",
+  "textures": {
+    "leaf": "ecologics:block/walnut_leaves"
+  }
+}
