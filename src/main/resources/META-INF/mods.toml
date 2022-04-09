@@ -1,13 +1,13 @@
 modLoader="javafml"
 loaderVersion="[40,)"
 license="MIT License"
-issueTrackerURL="https://github.com/brdle/Quark-Azalea/issues"
+issueTrackerURL="https://github.com/brdle/Quarkologics/issues"
 
 [[mods]]
 modId="quarkologics"
 version="${file.jarVersion}"
 displayName="Quarkologics"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/better-quark-azalea"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/quarkologics"
 updateJSONURL="https://onvoid.net/quarkologics/update.json"
 logoFile="quarkologics.png"
 logoBlur=false
